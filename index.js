@@ -5,7 +5,7 @@ app.use(express.urlencoded({ extended: false }));
 
 //Mongoose
 
-const mongoose = reqquire(`mongoose`);
+const mongoose = require(`mongoose`);
 mongoose.connect(`mongodb://localhost/familyTree`);
 // replace with 127.0.0.1 if local isnt working
 
